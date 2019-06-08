@@ -1,6 +1,6 @@
 from github import Github
 import sys
-tocken="fbe7b881081ab48a50fff9034e08097c296676be" #put your access tocken here
+tocken="put your tocker here" #put your access tocken here
 
 
 def createrepo():
