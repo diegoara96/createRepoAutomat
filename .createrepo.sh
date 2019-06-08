@@ -12,4 +12,5 @@ function createrepo(){
     git commit -m "first commit"
     git remote add origin https://github.com/diegoara96/$1.git
     git push -u origin master
+    code .
 }
