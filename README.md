@@ -3,7 +3,7 @@
 git clone "https://github.com/diegoara96/createRepoAutomat.git"
 cd createRepoAutomat
 pip install -r requirements.txt
-source ~/.createrepo.sh
+source .createrepo.sh
 Then go to createrepo.py and put your github tocken
 all projects are going to be saved in ~/Documentos/proyectos change if you want in .createrepo.sh
 ```
