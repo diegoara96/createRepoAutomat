@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function createrepo(){
+
     python createrepo.py $1
     cd ~/Documentos/proyectos
     mkdir $1
@@ -12,4 +12,4 @@ function createrepo(){
     git remote add origin https://github.com/diegoara96/$1.git
     git push -u origin master
     code .
-}
+
